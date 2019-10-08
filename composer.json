@@ -1,0 +1,12 @@
+{
+    "name": "hp/job",
+    "description": "CRUD OOP PHP and Jquery",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Kayiranga",
+            "email": "ericsoft123@gmail.com"
+        }
+    ],
+    "require": {}
+}

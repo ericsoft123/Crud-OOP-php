@@ -1,0 +1,146 @@
+.wrapper{
+    padding-top:15px;
+}
+
+/*loader*/
+#cover-spin {
+    position:fixed;
+    width:100%;
+    left:0;right:0;top:0;bottom:0;
+    background-color: rgba(255,255,255,0.7);
+    z-index:9999;
+    display:none;
+}
+
+@-webkit-keyframes spin {
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(360deg);}
+}
+
+@keyframes spin {
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
+
+#cover-spin::after {
+    content:'';
+    display:block;
+    position:absolute;
+    left:48%;top:40%;
+    width:40px;height:40px;
+    border-style:solid;
+    border-color:black;
+    border-top-color:transparent;
+    border-width: 4px;
+    border-radius:50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+}
+/*loader*/
+
+/*alert*/
+   .message ,.table_display{
+       clear: both;
+       padding:10px;
+   }
+.alert-primary{
+    background-color: #cce5ff6e !important;
+    border-color: #28a745 !important;
+   }                       
+.alert.alert-shadowed {
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.alert.radius-bordered {
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+}
+
+.alert {
+    margin-bottom: 20px;
+    margin-top: 0;
+    color:  #13111180;
+    border-width: 0;
+    border-left-width: 5px;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.alert.alert-danger {
+    border-color: #dc3545;
+    background: #e46f611c;
+}
+
+/*alert*/
+
+/*footer*/
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+.card-header{
+background-color: rgba(0, 0, 0, 0.81);
+color:#f5f5f54d;
+
+}
+
+/*footer*/
+
+
+.center-form{
+    margin: auto;
+  width: 30%;
+ 
+  padding: 10px;
+}
+.btn-green:link, .btn-green:visited {
+    background-color: #32cd32;
+    color: white;
+   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.bt-sm{
+    padding: 2px 45px;
+    border-radius: 20px;
+}
+.bt-big{
+    padding: 8px 45px;
+    border-radius: 20px;
+    
+}
+.bt-right{
+    float:right;
+}
+
+.btn-green:hover, .btn-green:active {
+  background-color:#007bff;
+}
+
+.btn-red:link, .btn-red:visited {
+    background-color: #f44336;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-red:hover, .btn-red:active {
+    background-color: red;
+}
+   nav img{
+width:200px;
+height:auto;
+   }
+   .title{
+    float:right;
+    margin-top:-20px;
+   }
