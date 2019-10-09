@@ -6,7 +6,7 @@ Note:please make sure your Xamp or Wamp is running
 
 
 
-Open your Terminal or CMd on windows Computer
+Open your Terminal or CMd (on windows Computer)
 
 
 Step 1: Clone Repository
