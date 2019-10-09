@@ -39,8 +39,6 @@ cd Crud-OOP-php
 
 Step6:
 
-on your terminal or cmd
-
 php -S localhost:8000
 
 
@@ -55,8 +53,6 @@ Open your Browser and copy this link to run project
 
 
 Note:if it does not work,it means that some program is using this port.
-
-on your terminal or cmd
 
 php -S localhost:3000
 
